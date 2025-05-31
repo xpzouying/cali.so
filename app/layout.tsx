@@ -14,11 +14,11 @@ import { seo } from '~/lib/seo'
 export const metadata: Metadata = {
   metadataBase: seo.url,
   title: {
-    template: '%s | Cali Castle',
+    template: '%s | 多多先生',
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Cali,Cali Castle,郭晓楠,佐玩,创始人,CEO,开发者,设计师,细节控,创新',
+  keywords: '多多先生，ZOU YING，Kimi，AI，搜索，推荐，开发者，开源，铲屎官，满分简历，cvmax.cn',
   manifest: '/site.webmanifest',
   robots: {
     index: true,
@@ -34,17 +34,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: seo.title,
-      template: '%s | Cali Castle',
+      template: '%s | 多多先生',
     },
     description: seo.description,
-    siteName: 'Cali Castle',
+    siteName: '多多先生',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://cali.so',
+    url: 'https://haha.ai',
   },
   twitter: {
-    site: '@thecalicastle',
-    creator: '@thecalicastle',
+    site: '@errorpanic',
+    creator: '@errorpanic',
     card: 'summary_large_image',
     title: seo.title,
     description: seo.description,

@@ -20,6 +20,8 @@ const faviconMapper: { [key: string]: string } = {
   'coolshell.cn': 'https://cali.so/favicons/coolshell.png',
   'vercel.com': 'https://cali.so/favicons/vercel.png',
   'nextjs.org': 'https://cali.so/favicons/nextjs.png',
+  'cvmax.cn': 'https://cdn.zouying.work/title-icon.png',
+  'kimi.com': 'https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/light/kimi-color.png',
 }
 
 function getPredefinedIconForUrl(url: string): string | undefined {
